@@ -1,0 +1,63 @@
+.no-margin{
+	 margin: 0px;
+}
+
+.no-padding{
+	
+	padding: 0px;
+	
+}
+
+.colorA{
+	color:#00b39b;
+}
+
+.colorA h1{
+	color:#272727;
+}
+
+.colorA h4{
+	color:#272727;
+}
+
+.bgcolorA{
+	background-color:#00b39b;
+}
+
+.colorB{
+	color:#f2a900;
+}
+
+.bgcolorB{
+	background-color:#f2a900;
+}
+
+.colorC{
+	color:#7e7e7e;
+}
+
+.bgcolorC{
+	background-color:#7e7e7e;
+}
+
+.colorD{
+	color:#fff;
+}
+
+.colorD a{
+	color:#fff;
+}
+
+.bgcolorD{
+	background-color:#fff;
+}
+
+.colorE{
+	color:#272727;
+}
+
+.bgcolorE{
+	background-color:#272727;
+}
+
+
