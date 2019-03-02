@@ -13,5 +13,8 @@
 <a href="/DevProjectB/order">Orders</a>
 <a href="/DevProjectB/sales">Sales Record</a>
 <a href="/DevProjectB/customerCrud">Customer CRUD operation</a>
+
+<h2>Book Cab</h2>
+<a href="/DevProjectB/chooseCities">Book your cab</a>
 </body>
 </html>

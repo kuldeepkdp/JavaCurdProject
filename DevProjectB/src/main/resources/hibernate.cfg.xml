@@ -30,6 +30,8 @@
 		<mapping class="com.kdp.model.Student_Info" />
 		<mapping class="com.kdp.model.Customers" />
 		<mapping class="com.kdp.model.Users" />
+		<mapping class="com.kdp.model.RouteAndFare" />
+		<mapping class="com.kdp.model.Riders" />
 
 	</session-factory>
 </hibernate-configuration>
