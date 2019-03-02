@@ -23,7 +23,7 @@
 
 <div class="bgcolorB">
 <h1 class="colorA">Sign In</h1>
-<form action="/DevProjectB/home" method="POST"> 
+<form action="/DevProjectB/admin/home" method="POST"> 
   <h1>${msg}</h1>
   User ID:<br>
   <input type="text" name="userId" ><br>

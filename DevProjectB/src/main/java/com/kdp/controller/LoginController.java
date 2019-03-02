@@ -13,14 +13,14 @@ import com.kdp.dao.LoginImp;
 public class LoginController {
 	
 	
-	@RequestMapping(value="/login", method=RequestMethod.GET)
+	@RequestMapping(value="/admin/login", method=RequestMethod.GET)
 	public ModelAndView getLoginForm() {
 
 		ModelAndView model = new ModelAndView("loginPage");
 		return model;
 	}
 	
-	@RequestMapping(value="/loginNotAuthenticated", method=RequestMethod.GET)
+	@RequestMapping(value="/admin/loginNotAuthenticated", method=RequestMethod.GET)
 	public ModelAndView doLogin() {
 
 		ModelAndView model = new ModelAndView("loginPage");
@@ -28,20 +28,20 @@ public class LoginController {
 		return model;
 	}
 	
-	@RequestMapping(value="/home", method=RequestMethod.POST)
+	@RequestMapping(value="/admin/home", method=RequestMethod.POST)
 	public ModelAndView getHomePage(@RequestParam("userId") String userId,@RequestParam("password") String password) {
           
 		LoginImp login= new LoginImp();
 		if (login.isValid(userId, password)== true){
 		
-		ModelAndView model = new ModelAndView("homePage");
+		ModelAndView model = new ModelAndView("adminHomePage");
 		model.addObject("msg", userId);
 		return model;
 		}
 		
 		else
 		{
-			return new ModelAndView("redirect:/loginNotAuthenticated");
+			return new ModelAndView("redirect:/admin/loginNotAuthenticated");
 		}
 	}
 	
