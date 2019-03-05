@@ -23,7 +23,7 @@
 
 <h1> Choose your cities </h1>
 <form action="/DevProjectB/fares" method="POST">
-  <select name="pickupCity">
+    <select name="pickupCity">
     <option value="Bokaro">Bokaro</option>
     <option value="Ranchi">Ranchi</option>
     <option value="Tata">Tata</option>
@@ -36,6 +36,17 @@
   </select>
   <input type="submit">
 </form>
-
+    <!--<div class="col-md-4" >
+    <select class="company">
+          <option value=''><strong>Name</strong></option>
+          <option value="Company A">Company A</option>
+          <option value="Company B">Company B</option>
+    </select>
+</div>
+<div class="col-md-4" >
+    <select class="product">
+          <option value=''><strong>Products</strong></option>
+    </select>
+</div>-->
 </body>
 </html>

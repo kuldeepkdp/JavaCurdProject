@@ -8,14 +8,17 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	
+	
+	
 	@RequestMapping(value="/goToHome", method=RequestMethod.GET)
 	public ModelAndView getLoginForm() {
 
 		ModelAndView model = new ModelAndView("homePage");
 		return model;
 	}
+
 	
-	@RequestMapping(value="/product", method=RequestMethod.GET)
+	/*@RequestMapping(value="/product", method=RequestMethod.GET)
 	public ModelAndView getProductForm() {
 
 		ModelAndView model = new ModelAndView("productPage");
@@ -34,7 +37,7 @@ public class HomeController {
 
 		ModelAndView model = new ModelAndView("salesPage");
 		return model;
-	}
+	}*/
 
 
 }

@@ -2,6 +2,8 @@ package com.kdp.controller;
 
 import java.util.List;
 
+import javax.persistence.Column;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -144,6 +146,7 @@ public class RiderController {
 		model.addObject("suvFare", suvFare);
 		model.addObject("pickupCity", routeAndFare.getPickupCity());
 		model.addObject("destinationCity", routeAndFare.getDestinationCity());
+		
 
 		return model;	
 	}
@@ -179,5 +182,7 @@ public class RiderController {
 		rider.saveRiderDetails(riders);
 		ModelAndView model = new ModelAndView("bookingSuccessPage");
 		return model;
+	
+	
 	}
 }
