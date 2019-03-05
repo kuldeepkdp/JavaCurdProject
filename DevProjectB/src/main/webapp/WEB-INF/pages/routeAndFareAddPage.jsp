@@ -19,7 +19,7 @@
   Swift Fare:<br>
   <input type="text" name="swiftFare" ><br><br>
   Innova Fare:<br>
-  <input type="text" name="InnovaFare" ><br><br>
+  <input type="text" name="innovaFare" ><br><br>
   SUV Fare:<br>
   <input type="text" name="suvFare" ><br><br>
   

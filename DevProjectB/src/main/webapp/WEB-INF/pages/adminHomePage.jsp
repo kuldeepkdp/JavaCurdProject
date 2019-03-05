@@ -10,5 +10,7 @@
 <h1>This is admin home page</h1>
 <h2>Welcome  ${msg}</h2>
 <a href="/DevProjectB/admin/routeAndFareAdd">Add route and fare</a>
+<a href="/DevProjectB/admin/viewBooking">View Rider Detail</a>
+<a href="/DevProjectB/admin/viewRouteAndFare">View route and fare</a>
 </body>
 </html>

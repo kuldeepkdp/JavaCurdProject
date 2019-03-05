@@ -11,7 +11,13 @@ public class RouteAndFare {
 	private String pickupCity;
 	private String destinationCity;
 	private String swiftFare;
-	private String InnovaFare;
+	private String innovaFare;
+	public String getInnovaFare() {
+		return innovaFare;
+	}
+	public void setInnovaFare(String innovaFare) {
+		this.innovaFare = innovaFare;
+	}
 	private String suvFare;
 	
 	public int getRouteAndFareID() {
@@ -38,12 +44,8 @@ public class RouteAndFare {
 	public void setSwiftFare(String swiftFare) {
 		this.swiftFare = swiftFare;
 	}
-	public String getInnovaFare() {
-		return InnovaFare;
-	}
-	public void setInnovaFare(String innovaFare) {
-		InnovaFare = innovaFare;
-	}
+	
+	
 	public String getSuvFare() {
 		return suvFare;
 	}
