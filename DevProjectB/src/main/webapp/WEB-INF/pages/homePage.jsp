@@ -8,11 +8,11 @@
 </head>
 <body>
 <h1>Welcome  ${msg}</h1>
-<!--  <a href="/DevProjectB/customer">Customer Details</a>
+<a href="/DevProjectB/customer">Customer Details</a>
 <a href="/DevProjectB/product">Product Details</a>
 <a href="/DevProjectB/order">Orders</a>
 <a href="/DevProjectB/sales">Sales Record</a>
-<a href="/DevProjectB/customerCrud">Customer CRUD operation</a> -->
+<a href="/DevProjectB/customerCrud">Customer CRUD operation</a>
 
 <h2>Book Cab</h2>
 <a href="/DevProjectB/chooseCities">Book your cab</a>
